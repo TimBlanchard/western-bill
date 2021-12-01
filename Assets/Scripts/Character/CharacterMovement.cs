@@ -9,6 +9,9 @@ public class CharacterMovement : MonoBehaviour
     public float jumpSpeed;
     public float jumpButtonGracePeriod;
 
+	[SerializeField]
+    private Transform cameraTransform;
+
     private Animator animator;
     private CharacterController characterController;
     private float ySpeed;
@@ -32,6 +35,8 @@ public class CharacterMovement : MonoBehaviour
 
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
         float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
+		// Move character in camera direction
+		movementDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movementDirection;
         movementDirection.Normalize();
 
         ySpeed += Physics.gravity.y * Time.deltaTime;
@@ -78,6 +83,19 @@ public class CharacterMovement : MonoBehaviour
         else
         {
             animator.SetBool("IsMoving", false);
+        }
+
+    }
+	// Lock cursor 
+	private void OnApplicationFocus(bool focus)
+    {
+        if (focus)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }

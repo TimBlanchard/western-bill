@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 15}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -24,212 +24,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 236
+  controlID: 10073
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 837.5
-    y: 30
-    width: 601.5
-    height: 829
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 78.29999
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 837.5
-    height: 850
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 96
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  - {fileID: 7}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 837.5
-    height: 503
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 97
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 204.5
-    height: 503
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 6}
-  m_Panes:
-  - {fileID: 6}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 203.5
-    height: 482
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d46affff
-      m_LastClickedID: -38188
-      m_ExpandedIDs: 0efbffff76750000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: Chicken
-        m_OriginalName: Chicken
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: -38188
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 0
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 204.5
-    y: 0
-    width: 633
-    height: 503
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 8}
-  m_Panes:
-  - {fileID: 8}
-  - {fileID: 9}
-  - {fileID: 10}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,7 +49,7 @@ MonoBehaviour:
     x: 204.5
     y: 30
     width: 631
-    height: 482
+    height: 376
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -274,9 +70,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -227}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -488,9 +284,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -11.86871, y: -2.5621252, z: 26.254452}
+    m_Target: {x: -11.902599, y: -3.4134054, z: 26.071522}
     speed: 2
-    m_Value: {x: -11.86871, y: -2.5621252, z: 26.254452}
+    m_Value: {x: -11.902599, y: -3.4134054, z: 26.071522}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -541,9 +337,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.086649, y: 0.2126012, z: -0.018930819, w: -0.9731055}
   m_Size:
-    m_Target: 23.91026
+    m_Target: 21.558258
     speed: 2
-    m_Value: 23.91026
+    m_Value: 21.574438
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -568,7 +364,169 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &9
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 837.5
+    height: 850
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 10074
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 837.5
+    height: 397
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 10075
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 204.5
+    height: 397
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 203.5
+    height: 376
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: e6040100
+      m_LastClickedID: 0
+      m_ExpandedIDs: b08dfdffa691fdff0efbffff767500007e750000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 204.5
+    y: 0
+    width: 633
+    height: 397
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -592,7 +550,7 @@ MonoBehaviour:
     x: 204.5
     y: 30
     width: 631
-    height: 482
+    height: 376
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -603,7 +561,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 631, y: 461}
+  m_TargetSize: {x: 631, y: 355}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -620,8 +578,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -157.75
     m_HBaseRangeMax: 157.75
-    m_VBaseRangeMin: -115.25
-    m_VBaseRangeMax: 115.25
+    m_VBaseRangeMin: -88.75
+    m_VBaseRangeMax: 88.75
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -640,9 +598,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 631
-      height: 461
+      height: 355
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 315.5, y: 230.5}
+    m_Translation: {x: 315.5, y: 177.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -650,18 +608,18 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -157.75
-      y: -115.25
+      y: -88.75
       width: 315.5
-      height: 230.5
+      height: 177.5
     m_MinimalGUI: 1
   m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 1262, y: 964}
+  m_LastWindowPixelSize: {x: 1262, y: 752}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &10
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -745,7 +703,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &11
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -761,19 +719,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 503
+    y: 397
     width: 837.5
-    height: 347
+    height: 453
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 11}
   m_Panes:
+  - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
-  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
+  m_LastSelected: 2
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -795,9 +753,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 533
+    y: 427
     width: 836.5
-    height: 326
+    height: 432
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -815,22 +773,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sounds
+    - Assets/Rhythm Game Tutorial/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sounds
+  - Assets/Rhythm Game Tutorial/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/timblanc/dev/unity/western-bill
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 18}
-    m_SelectedIDs: b2b90000
-    m_LastClickedID: 47538
-    m_ExpandedIDs: 00000000287a0000b2b9000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f4040100
+    m_LastClickedID: 66804
+    m_ExpandedIDs: 00000000287a00001205010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -858,7 +816,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000287a0000
+    m_ExpandedIDs: 00000000287a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -883,8 +841,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d46affff
-    m_LastClickedInstanceID: -38188
+    m_SelectedInstanceIDs: e6040100
+    m_LastClickedInstanceID: 66790
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000022ff0000
     m_RenameOverlay:
@@ -914,7 +872,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &13
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -943,7 +901,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -974,7 +932,7 @@ MonoBehaviour:
     m_SaveData: []
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0461ffff
+    m_SelectedIDs: 
     m_LastClickedID: -40700
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
@@ -1091,7 +1049,7 @@ MonoBehaviour:
       oldMaxSizes: 
       oldSplitSize: 0
     m_HorizontalSplitter:
-      ID: 1950
+      ID: 9433
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes:
@@ -1120,7 +1078,7 @@ MonoBehaviour:
   m_ShowReferencedBuses: 1
   m_ShowBusConnections: 0
   m_ShowBusConnectionsOfSelection: 0
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1141,12 +1099,54 @@ MonoBehaviour:
     height: 850
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 2}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 2}
+  - {fileID: 15}
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 837.5
+    y: 30
+    width: 601.5
+    height: 829
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1180,11 +1180,11 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -1363,189 +1363,15 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 3a188f79715a148dbaf6fb5276ee4870
-        - e9bad01826c6b40c79395a3d655c3438
-        - 6ebd3eb754bf14418b70a6a2d7987ec4
-        - dfb0dead63d7940cf9077475f51dfb39
-        - 5868ae409cb9b4cde90909d97939cfaa
-        - 1a381703b046f480abf41095b37f3520
-        - fac87bb68f23b4a57935240c10469670
-        - e15b4a30e4aa34c67a54676e9fe1a5c5
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Scenes/MoveInTown.unity
-          label: MoveInTown.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 1
-          gitStatusEntry:
-            path: Assets/Scenes/MoveInTown.unity
-            fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
-            projectPath: Assets/Scenes/MoveInTown.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets/Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Scripts/HarmonicaHandler.cs
-          label: HarmonicaHandler.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Scripts/HarmonicaHandler.cs
-            fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs
-            projectPath: Assets/Scripts/HarmonicaHandler.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sounds
-          label: Sounds
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sounds/horse-snore.wav
-          label: horse-snore.wav
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sounds/horse-snore.wav
-            fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav
-            projectPath: Assets/Sounds/horse-snore.wav
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Sounds/MoveInTown
-          label: MoveInTown
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sounds/MoveInTown/MainMixer.mixer
-          label: MainMixer.mixer
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Sounds/MoveInTown/MainMixer.mixer
-            fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
-            projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
         keys:
-        - Assets
-        - Assets/Scenes
-        - Assets/Scripts
-        - Assets/Sounds
-        - Assets/Sounds/MoveInTown
+        - UserSettings
+        - UserSettings/Layouts
         values:
-        - path: Assets
-          label: Assets
+        - path: UserSettings
+          label: UserSettings
           level: 0
           isFolder: 1
           isContainer: 0
@@ -1562,63 +1388,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Scenes
-          label: Scenes
+        - path: UserSettings/Layouts
+          label: Layouts
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sounds
-          label: Sounds
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Sounds/MoveInTown
-          label: MoveInTown
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1662,8 +1434,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
+      - path: UserSettings
+        label: UserSettings
         level: 0
         isFolder: 1
         isContainer: 0
@@ -1680,8 +1452,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Scenes
-        label: Scenes
+      - path: UserSettings/Layouts
+        label: Layouts
         level: 1
         isFolder: 1
         isContainer: 0
@@ -1698,8 +1470,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Scenes/MoveInTown.unity
-        label: MoveInTown.unity
+      - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1708,155 +1480,11 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
-        isLocked: 1
-        gitStatusEntry:
-          path: Assets/Scenes/MoveInTown.unity
-          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
-          projectPath: Assets/Scenes/MoveInTown.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets/Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Scripts/HarmonicaHandler.cs
-        label: HarmonicaHandler.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/HarmonicaHandler.cs
-          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs
-          projectPath: Assets/Scripts/HarmonicaHandler.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Scripts/HarmonicaHandler.cs.meta
-        label: HarmonicaHandler.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Scripts/HarmonicaHandler.cs.meta
-          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs.meta
-          projectPath: Assets/Scripts/HarmonicaHandler.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sounds
-        label: Sounds
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Sounds/horse-snore.wav
-        label: horse-snore.wav
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sounds/horse-snore.wav
-          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav
-          projectPath: Assets/Sounds/horse-snore.wav
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sounds/horse-snore.wav.meta
-        label: horse-snore.wav.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sounds/horse-snore.wav.meta
-          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav.meta
-          projectPath: Assets/Sounds/horse-snore.wav.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Sounds/MoveInTown
-        label: MoveInTown
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Sounds/MoveInTown/MainMixer.mixer
-        label: MainMixer.mixer
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Sounds/MoveInTown/MainMixer.mixer
-          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
-          projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
+          path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          fullPath: /Users/timblanc/dev/unity/western-bill/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1880,56 +1508,332 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets/Scenes/MoveInTown.unity
-      fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
-      projectPath: Assets/Scenes/MoveInTown.unity
+    - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+      fullPath: /Users/timblanc/dev/unity/western-bill/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+      projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets/Scripts/HarmonicaHandler.cs
-      fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs
-      projectPath: Assets/Scripts/HarmonicaHandler.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Scripts/HarmonicaHandler.cs.meta
-      fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs.meta
-      projectPath: Assets/Scripts/HarmonicaHandler.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sounds/horse-snore.wav
-      fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav
-      projectPath: Assets/Sounds/horse-snore.wav
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sounds/horse-snore.wav.meta
-      fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav.meta
-      projectPath: Assets/Sounds/horse-snore.wav.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Sounds/MoveInTown/MainMixer.mixer
-      fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
-      projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 6 changed files
+    changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2021-12-01T11:04:22.685+01:00
+      updatedTimeString: 2021-12-01T14:34:00.000+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-12-01T13:37:36.593+01:00
+      updatedTimeString: 2021-12-01T14:34:00.565+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2021-12-01T14:34:00.564+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 74a059cb592b259b40db2e3a84e050ce6e1449ee
+      mergeA: 
+      mergeB: 
+      authorName: TimBlanchard
+      authorEmail: timothee.blanchard37@gmail.com
+      commitEmail: timothee.blanchard37@gmail.com
+      commitName: TimBlanchard
+      summary: MoveInTown - Add horse sound interaction
+      description: 
+      timeString: 2021-12-01T13:39:14.000+01:00
+      commitTimeString: 2021-12-01T13:39:14.000+01:00
+      changes:
+      - path: Assets/Scenes/MoveInTown.unity
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+        projectPath: Assets/Scenes/MoveInTown.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/HarmonicaHandler.cs
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs
+        projectPath: Assets/Scripts/HarmonicaHandler.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/HarmonicaHandler.cs.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs.meta
+        projectPath: Assets/Scripts/HarmonicaHandler.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/MoveInTown/MainMixer.mixer
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
+        projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Sounds/horse-snore.wav
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav
+        projectPath: Assets/Sounds/horse-snore.wav
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/horse-snore.wav.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav.meta
+        projectPath: Assets/Sounds/horse-snore.wav.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        fullPath: /Users/timblanc/dev/unity/western-bill/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 43e04fbcd4a92047236c3272d83a29d0e48ba07d
+      mergeA: 
+      mergeB: 
+      authorName: TimBlanchard
+      authorEmail: timothee.blanchard37@gmail.com
+      commitEmail: timothee.blanchard37@gmail.com
+      commitName: TimBlanchard
+      summary: Add chicken audio source
+      description: 
+      timeString: 2021-12-01T11:04:09.000+01:00
+      commitTimeString: 2021-12-01T11:04:09.000+01:00
+      changes:
+      - path: Assets/Scenes/MoveInTown.unity
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+        projectPath: Assets/Scenes/MoveInTown.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Sounds.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds.meta
+        projectPath: Assets/Sounds.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/MoveInTown.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown.meta
+        projectPath: Assets/Sounds/MoveInTown.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/MoveInTown/MainMixer.mixer
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
+        projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/MoveInTown/MainMixer.mixer.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer.meta
+        projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/buzz.wav
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/buzz.wav
+        projectPath: Assets/Sounds/buzz.wav
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/buzz.wav.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/buzz.wav.meta
+        projectPath: Assets/Sounds/buzz.wav.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/footstep.wav
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/footstep.wav
+        projectPath: Assets/Sounds/footstep.wav
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Sounds/footstep.wav.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/footstep.wav.meta
+        projectPath: Assets/Sounds/footstep.wav.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 630e700b845f9744a1d7b03c501ea4c5dae9bd7b
+      mergeA: 
+      mergeB: 
+      authorName: TimBlanchard
+      authorEmail: timothee.blanchard37@gmail.com
+      commitEmail: timothee.blanchard37@gmail.com
+      commitName: TimBlanchard
+      summary: MoveInTown - Add ThirdPersonCamera
+      description: 
+      timeString: 2021-12-01T10:15:28.000+01:00
+      commitTimeString: 2021-12-01T10:15:28.000+01:00
+      changes:
+      - path: Assets/Scenes/MoveInTown.unity
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+        projectPath: Assets/Scenes/MoveInTown.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/Character/CharacterMovement.cs
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs
+        projectPath: Assets/Scripts/Character/CharacterMovement.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages/manifest.json
+        fullPath: /Users/timblanc/dev/unity/western-bill/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        fullPath: /Users/timblanc/dev/unity/western-bill/Packages/packages-lock.json
+        projectPath: Packages/packages-lock.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /Users/timblanc/dev/unity/western-bill/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 0c2783c1a5f453a015b995af641e32e2d183ca54
+      mergeA: 
+      mergeB: 
+      authorName: TimBlanchard
+      authorEmail: timothee.blanchard37@gmail.com
+      commitEmail: timothee.blanchard37@gmail.com
+      commitName: TimBlanchard
+      summary: Add Character aimations and update movement
+      description: 
+      timeString: 2021-12-01T01:19:49.000+01:00
+      commitTimeString: 2021-12-01T01:19:49.000+01:00
+      changes:
+      - path: Assets/Animations/Billy.controller
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/Billy.controller
+        projectPath: Assets/Animations/Billy.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/Billy.controller.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/Billy.controller.meta
+        projectPath: Assets/Animations/Billy.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/BillyRun.fbx
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyRun.fbx
+        projectPath: Assets/Animations/BillyRun.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/BillyRun.fbx.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyRun.fbx.meta
+        projectPath: Assets/Animations/BillyRun.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/BillyWalk.fbx
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyWalk.fbx
+        projectPath: Assets/Animations/BillyWalk.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/BillyWalk.fbx.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyWalk.fbx.meta
+        projectPath: Assets/Animations/BillyWalk.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/happy-Idle.fbx
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/happy-Idle.fbx
+        projectPath: Assets/Animations/happy-Idle.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Animations/happy-Idle.fbx.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/happy-Idle.fbx.meta
+        projectPath: Assets/Animations/happy-Idle.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/MoveInTown.unity
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+        projectPath: Assets/Scenes/MoveInTown.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/Character/CharacterMovement.cs
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs
+        projectPath: Assets/Scripts/Character/CharacterMovement.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 4f7b418615efd3b8db8fcfffd8e879a518e7885f
+      mergeA: 
+      mergeB: 
+      authorName: TimBlanchard
+      authorEmail: timothee.blanchard37@gmail.com
+      commitEmail: timothee.blanchard37@gmail.com
+      commitName: TimBlanchard
+      summary: Add basic scene and player movement
+      description: 
+      timeString: 2021-12-01T00:40:59.000+01:00
+      commitTimeString: 2021-12-01T00:40:59.000+01:00
+      changes:
+      - path: .idea/.idea.western-bill/.idea/.gitignore
+        fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/.gitignore
+        projectPath: .idea/.idea.western-bill/.idea/.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea/.idea.western-bill/.idea/encodings.xml
+        fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/encodings.xml
+        projectPath: .idea/.idea.western-bill/.idea/encodings.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea/.idea.western-bill/.idea/indexLayout.xml
+        fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/indexLayout.xml
+        projectPath: .idea/.idea.western-bill/.idea/indexLayout.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea/.idea.western-bill/.idea/vcs.xml
+        fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/vcs.xml
+        projectPath: .idea/.idea.western-bill/.idea/vcs.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/MoveInTown.unity
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+        projectPath: Assets/Scenes/MoveInTown.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets/Scripts/Character.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character.meta
+        projectPath: Assets/Scripts/Character.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Character/CharacterMovement.cs
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs
+        projectPath: Assets/Scripts/Character/CharacterMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Character/CharacterMovement.cs.meta
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs.meta
+        projectPath: Assets/Scripts/Character/CharacterMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Terrain/Terrain_0_0_4bf4058e-6753-4f6e-8dc6-013b28d3884d.asset
+        fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Terrain/Terrain_0_0_4bf4058e-6753-4f6e-8dc6-013b28d3884d.asset
+        projectPath: Assets/Terrain/Terrain_0_0_4bf4058e-6753-4f6e-8dc6-013b28d3884d.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings/Packages/com.unity.probuilder/Settings.json
+        fullPath: /Users/timblanc/dev/unity/western-bill/ProjectSettings/Packages/com.unity.probuilder/Settings.json
+        projectPath: ProjectSettings/Packages/com.unity.probuilder/Settings.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 4f8371618a6fcfa960665d62965b4181773be2a2
       mergeA: 
       mergeB: 
@@ -4893,16 +4797,322 @@ MonoBehaviour:
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-    statusAhead: 0
+    statusAhead: 1
     lastLogChangedEvent:
-      updatedTimeString: 2021-12-01T00:40:04.503+01:00
+      updatedTimeString: 2021-12-01T13:53:05.902+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2021-12-01T13:53:05.902+01:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 74a059cb592b259b40db2e3a84e050ce6e1449ee
+        mergeA: 
+        mergeB: 
+        authorName: TimBlanchard
+        authorEmail: timothee.blanchard37@gmail.com
+        commitEmail: timothee.blanchard37@gmail.com
+        commitName: TimBlanchard
+        summary: MoveInTown - Add horse sound interaction
+        description: 
+        timeString: 2021-12-01T13:39:14.000+01:00
+        commitTimeString: 2021-12-01T13:39:14.000+01:00
+        changes:
+        - path: Assets/Scenes/MoveInTown.unity
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+          projectPath: Assets/Scenes/MoveInTown.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/HarmonicaHandler.cs
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs
+          projectPath: Assets/Scripts/HarmonicaHandler.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/HarmonicaHandler.cs.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/HarmonicaHandler.cs.meta
+          projectPath: Assets/Scripts/HarmonicaHandler.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/MoveInTown/MainMixer.mixer
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
+          projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Sounds/horse-snore.wav
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav
+          projectPath: Assets/Sounds/horse-snore.wav
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/horse-snore.wav.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/horse-snore.wav.meta
+          projectPath: Assets/Sounds/horse-snore.wav.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          fullPath: /Users/timblanc/dev/unity/western-bill/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 43e04fbcd4a92047236c3272d83a29d0e48ba07d
+        mergeA: 
+        mergeB: 
+        authorName: TimBlanchard
+        authorEmail: timothee.blanchard37@gmail.com
+        commitEmail: timothee.blanchard37@gmail.com
+        commitName: TimBlanchard
+        summary: Add chicken audio source
+        description: 
+        timeString: 2021-12-01T11:04:09.000+01:00
+        commitTimeString: 2021-12-01T11:04:09.000+01:00
+        changes:
+        - path: Assets/Scenes/MoveInTown.unity
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+          projectPath: Assets/Scenes/MoveInTown.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Sounds.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds.meta
+          projectPath: Assets/Sounds.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/MoveInTown.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown.meta
+          projectPath: Assets/Sounds/MoveInTown.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/MoveInTown/MainMixer.mixer
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer
+          projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/MoveInTown/MainMixer.mixer.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/MoveInTown/MainMixer.mixer.meta
+          projectPath: Assets/Sounds/MoveInTown/MainMixer.mixer.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/buzz.wav
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/buzz.wav
+          projectPath: Assets/Sounds/buzz.wav
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/buzz.wav.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/buzz.wav.meta
+          projectPath: Assets/Sounds/buzz.wav.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/footstep.wav
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/footstep.wav
+          projectPath: Assets/Sounds/footstep.wav
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Sounds/footstep.wav.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Sounds/footstep.wav.meta
+          projectPath: Assets/Sounds/footstep.wav.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 630e700b845f9744a1d7b03c501ea4c5dae9bd7b
+        mergeA: 
+        mergeB: 
+        authorName: TimBlanchard
+        authorEmail: timothee.blanchard37@gmail.com
+        commitEmail: timothee.blanchard37@gmail.com
+        commitName: TimBlanchard
+        summary: MoveInTown - Add ThirdPersonCamera
+        description: 
+        timeString: 2021-12-01T10:15:28.000+01:00
+        commitTimeString: 2021-12-01T10:15:28.000+01:00
+        changes:
+        - path: Assets/Scenes/MoveInTown.unity
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+          projectPath: Assets/Scenes/MoveInTown.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/Character/CharacterMovement.cs
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs
+          projectPath: Assets/Scripts/Character/CharacterMovement.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages/manifest.json
+          fullPath: /Users/timblanc/dev/unity/western-bill/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages/packages-lock.json
+          fullPath: /Users/timblanc/dev/unity/western-bill/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /Users/timblanc/dev/unity/western-bill/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 0c2783c1a5f453a015b995af641e32e2d183ca54
+        mergeA: 
+        mergeB: 
+        authorName: TimBlanchard
+        authorEmail: timothee.blanchard37@gmail.com
+        commitEmail: timothee.blanchard37@gmail.com
+        commitName: TimBlanchard
+        summary: Add Character aimations and update movement
+        description: 
+        timeString: 2021-12-01T01:19:49.000+01:00
+        commitTimeString: 2021-12-01T01:19:49.000+01:00
+        changes:
+        - path: Assets/Animations/Billy.controller
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/Billy.controller
+          projectPath: Assets/Animations/Billy.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/Billy.controller.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/Billy.controller.meta
+          projectPath: Assets/Animations/Billy.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/BillyRun.fbx
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyRun.fbx
+          projectPath: Assets/Animations/BillyRun.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/BillyRun.fbx.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyRun.fbx.meta
+          projectPath: Assets/Animations/BillyRun.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/BillyWalk.fbx
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyWalk.fbx
+          projectPath: Assets/Animations/BillyWalk.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/BillyWalk.fbx.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/BillyWalk.fbx.meta
+          projectPath: Assets/Animations/BillyWalk.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/happy-Idle.fbx
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/happy-Idle.fbx
+          projectPath: Assets/Animations/happy-Idle.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Animations/happy-Idle.fbx.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Animations/happy-Idle.fbx.meta
+          projectPath: Assets/Animations/happy-Idle.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/MoveInTown.unity
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+          projectPath: Assets/Scenes/MoveInTown.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/Character/CharacterMovement.cs
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs
+          projectPath: Assets/Scripts/Character/CharacterMovement.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 4f7b418615efd3b8db8fcfffd8e879a518e7885f
+        mergeA: 
+        mergeB: 
+        authorName: TimBlanchard
+        authorEmail: timothee.blanchard37@gmail.com
+        commitEmail: timothee.blanchard37@gmail.com
+        commitName: TimBlanchard
+        summary: Add basic scene and player movement
+        description: 
+        timeString: 2021-12-01T00:40:59.000+01:00
+        commitTimeString: 2021-12-01T00:40:59.000+01:00
+        changes:
+        - path: .idea/.idea.western-bill/.idea/.gitignore
+          fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/.gitignore
+          projectPath: .idea/.idea.western-bill/.idea/.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea/.idea.western-bill/.idea/encodings.xml
+          fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/encodings.xml
+          projectPath: .idea/.idea.western-bill/.idea/encodings.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea/.idea.western-bill/.idea/indexLayout.xml
+          fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/indexLayout.xml
+          projectPath: .idea/.idea.western-bill/.idea/indexLayout.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea/.idea.western-bill/.idea/vcs.xml
+          fullPath: /Users/timblanc/dev/unity/western-bill/.idea/.idea.western-bill/.idea/vcs.xml
+          projectPath: .idea/.idea.western-bill/.idea/vcs.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/MoveInTown.unity
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scenes/MoveInTown.unity
+          projectPath: Assets/Scenes/MoveInTown.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets/Scripts/Character.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character.meta
+          projectPath: Assets/Scripts/Character.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Character/CharacterMovement.cs
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs
+          projectPath: Assets/Scripts/Character/CharacterMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Character/CharacterMovement.cs.meta
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Scripts/Character/CharacterMovement.cs.meta
+          projectPath: Assets/Scripts/Character/CharacterMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Terrain/Terrain_0_0_4bf4058e-6753-4f6e-8dc6-013b28d3884d.asset
+          fullPath: /Users/timblanc/dev/unity/western-bill/Assets/Terrain/Terrain_0_0_4bf4058e-6753-4f6e-8dc6-013b28d3884d.asset
+          projectPath: Assets/Terrain/Terrain_0_0_4bf4058e-6753-4f6e-8dc6-013b28d3884d.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings/Packages/com.unity.probuilder/Settings.json
+          fullPath: /Users/timblanc/dev/unity/western-bill/ProjectSettings/Packages/com.unity.probuilder/Settings.json
+          projectPath: ProjectSettings/Packages/com.unity.probuilder/Settings.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 4f8371618a6fcfa960665d62965b4181773be2a2
         mergeA: 
         mergeB: 
@@ -7868,7 +8078,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      statusAhead: 0
+      statusAhead: 1
       selectedIndex: -1
     selectedEntry:
       commitID: 
@@ -7930,7 +8140,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2021-12-01T09:10:32.372+01:00
+      updatedTimeString: 2021-12-01T14:34:00.000+01:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/TimBlanchard/western-bill.git
@@ -7944,7 +8154,7 @@ MonoBehaviour:
       newGitEmail: timothee.blanchard37@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2021-12-01T09:10:36.275+01:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -8014,10 +8224,10 @@ MonoBehaviour:
       updatedTimeString: 2021-12-01T11:04:22.685+01:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2021-12-01T11:07:23.825+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-12-01T11:07:19.105+01:00
+      updatedTimeString: 2021-12-01T13:53:08.627+01:00
       cacheType: 6
     lockedFiles:
     - id: 1123397
@@ -8046,7 +8256,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/TimBlanchard/western-bill.git
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -8059,13 +8269,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2021-12-01T11:04:22.685+01:00
+    updatedTimeString: 2021-12-01T14:34:00.000+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2021-12-01T11:09:02.801+01:00
+    updatedTimeString: 2021-12-01T14:34:00.619+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2021-12-01T11:09:02.747+01:00
+    updatedTimeString: 2021-12-01T14:59:11.632+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull

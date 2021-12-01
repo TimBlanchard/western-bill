@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public BeatScroller _beatScroller;
 
     public static GameManager instance;
+    public int currentScore;
     
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,7 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit On Time");
+        currentScore += 1;
     }
 
     public void NoteMissed()

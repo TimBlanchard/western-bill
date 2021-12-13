@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour
 {
+    
     private SpriteRenderer _spriteRenderer;
     public Sprite defaultImage;
     public Sprite pressedImage;
@@ -26,6 +27,10 @@ public class ButtonController : MonoBehaviour
         if (Input.GetKeyUp(keyToPress))
         {
             _spriteRenderer.sprite = defaultImage;
+        }
+        if(GameManager.instance.succeedGame)
+        {
+            Destroy(gameObject);
         }
     }
 }

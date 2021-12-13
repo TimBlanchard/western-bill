@@ -5,7 +5,6 @@ using UnityEngine;
 public class MoveTerrain : MonoBehaviour
 {
     public Vector3 Direction;
-    // public float Speed;
 
     private Global GlobalRef;
 
@@ -18,6 +17,10 @@ public class MoveTerrain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(GlobalRef.Speed * Direction * Time.deltaTime);
+		if(!GameManager.instance.succeedGame){
+		transform.Translate(GameManager.instance.gameSpeed * GlobalRef.stepMultiplicatorTerrain * Direction * Time.deltaTime);
+		} else {
+		transform.Translate(GameManager.instance.gameSpeed * .05f * Direction * Time.deltaTime);
+		}
     }
 }

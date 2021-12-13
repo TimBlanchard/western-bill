@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c0b0dd8a62d4b67bdfee3462291863, type: 3}
+  m_Name: NarratorScene2
+  m_EditorClassIdentifier: 
+  Lines:
+  - "Billy le brave, partant \xE0 la recherche de son fid\xE8le destrier, pr\xEAt
+    \xE0 affronter cette nouvelle qu\xEAte"
+  - "Billy \xE9tant dipl\xF4m\xE9 de l'\xE9cole nationale des arts de Monica, Texas,
+    il n'h\xE9sita pas une seconde \xE0 sortir son instrument f\xE9tiche pour appeler
+    son grandiose destrier."
+  currentScene: 2
+  IsDisplayed: 1

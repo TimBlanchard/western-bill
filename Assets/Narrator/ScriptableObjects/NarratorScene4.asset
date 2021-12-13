@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c0b0dd8a62d4b67bdfee3462291863, type: 3}
+  m_Name: NarratorScene4
+  m_EditorClassIdentifier: 
+  Lines:
+  - "Apres une course folle, notre heros arriva aux abords d'\xE9tranges ruines.
+    Le chemin pour retrouver les bottes du maire n'\xE9tant pourtant pas indiqu\xE9
+    sur la prime, Billy avait eu une intuition... Ou beaucoup de chance"
+  - "Sa monture lui donnait du fil \xE0 retordre. Une fois n'est pas coutume, il
+    tenta de l'appeler."
+  - "Moi m\xEAme je ne m'y attendais pas, je vais boire un verre d'eau."
+  IsDisplayed: 0

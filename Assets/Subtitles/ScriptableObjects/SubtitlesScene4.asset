@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9d4728bdffb41979af9ba9317137d1, type: 3}
+  m_Name: SubtitlesScene4
+  m_EditorClassIdentifier: 
+  Lines:
+  - "Billy: La prochaine fois que je vois Shrek j'lui demande direct si je peux pas
+    lui emprunter son \xE2ne ! \xE7a sera toujours mieux que cette mule"
+  - 'Billy: Eh mais revient farfadet !'
+  - "Billy: Je crois que si je fais Fa Sol Do# \xE7a fait un truc"
+  - 'Billy: ... Mais... C''est quoi ce bordel ?'
+  - 'Billy: Oh merde elles sont si moche ces b...'
+  - "Chasseur de primes 1: C'est quand m\xEAme sacr\xE9ment stupide de pas avoir
+    accroch\xE9 proprement les bottes \xE0 ton sac Joe !"
+  - "Chasseur de primes 2: J'vais te mettre les miennes dans le cul si t'arr\xEAtes
+    pas de te plaindre ! Elles sont pas loin ces bottes je te dis, je les sens d'ici"
+  IsDisplayed: 1

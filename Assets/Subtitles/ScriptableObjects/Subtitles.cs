@@ -10,6 +10,8 @@ public class Subtitles : ScriptableObject
     public event SubtitleEvent OnSubtitleChange;
     public event SubtitleEvent OnSubtitleDisplayed;
 
+    public static Subtitles instance;
+
     public List<string> Lines;
 
     public bool IsDisplayed = false;
@@ -22,6 +24,8 @@ public class Subtitles : ScriptableObject
 
     public void StartDisplay(){
         _currentLine = 0;
+        Subtitles.instance = this;
+
     }
 
     public bool HasNext(){

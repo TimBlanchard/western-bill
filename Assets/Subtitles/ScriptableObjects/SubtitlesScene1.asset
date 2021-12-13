@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9d4728bdffb41979af9ba9317137d1, type: 3}
+  m_Name: SubtitlesScene1
+  m_EditorClassIdentifier: 
+  Lines:
+  - "Sh\xE9rif : \"Content de te revoir Billy, \xE7a faisait longtemps qu'on t'avais
+    pas vu ici, tu chasses qui cette fois ?\""
+  - "Chasseur de primes : \"Celui l\xE0 est pour moi les gars, Blake a cass\xE9 la
+    gueule de mon cousin.\""
+  - "Sh\xE9rif : \"2 mois que le maire sort plus de chez lui Billy, ram\xE8ne moi
+    ces putains de bottes.\""
+  IsDisplayed: 0

@@ -5,12 +5,13 @@ using UnityEngine;
 public class BeatScroller : MonoBehaviour
 {
     public float beatTempo;
-
     public bool hasStarted;
+	public float scale;
+
     // Start is called before the first frame update
     void Start()
     {
-        beatTempo = beatTempo / 60f;
+        beatTempo = (beatTempo*scale) / 60f;
     }
 
     // Update is called once per frame

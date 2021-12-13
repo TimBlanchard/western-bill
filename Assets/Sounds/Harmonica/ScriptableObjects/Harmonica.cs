@@ -6,8 +6,8 @@ using UnityEngine;
 public class Harmonica : ScriptableObject
 {
 
-    public delegate void HarmonicaEvent(int currentLine);
-    public event HarmonicaEvent OnHarmonicaChange;
+    public delegate void HarmonicaEvent();
+    public event HarmonicaEvent OnHarmonicaPlay;
     public event HarmonicaEvent OnHarmonicaDisplayed;
 
     public List<string> Lines;
@@ -17,6 +17,9 @@ public class Harmonica : ScriptableObject
     private int _currentCount;
     private int _currentLine;
 
+    private bool harmonicaPlayed;
+
+/*
     public int GetCurrentLine(){
         return _currentLine;
     }
@@ -31,6 +34,7 @@ public class Harmonica : ScriptableObject
 
     public void Next(){
         SoundManagerScript.PlayHarmonicaNote();
+        
         _currentCount++;
         if(HasNext() && _currentCount % 5 == 0) {
             _currentLine++;
@@ -39,5 +43,24 @@ public class Harmonica : ScriptableObject
         if(OnHarmonicaChange != null) OnHarmonicaChange(_currentLine);
         }
     }
+    */
 
+    public void PlayNote(){
+        
+        /*
+        Debug.Log("play noooote");
+        harmonicaPlayed = true;
+        Footstep.playHarmonica(harmonicaPlayed);
+        Footstep.AlphaTo();
+        SoundManagerScript.PlayHarmonicaNote();
+        if(_currentCount % 5 == 0) {
+            Debug.Log(_currentCount);
+        }
+        */
+        Debug.Log("harmonica");
+        SoundManagerScript.PlayHarmonicaNote();
+        OnHarmonicaPlay?.Invoke();
+    }
+
+    
 }

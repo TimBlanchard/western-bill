@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9d4728bdffb41979af9ba9317137d1, type: 3}
+  m_Name: SubtitlesScene2
+  m_EditorClassIdentifier: 
+  Lines:
+  - 'Billy : "*Siffle*" '
+  - 'Billy: "Mais t''es ou ?"'
+  - "Billy : \"Clair de Lune, Beethoven, comme \xE0 l'\xE9cole !\""
+  - "Villageois 1: \"J'suis \xE0 deux doigts d'inventer l'octogone\""
+  - "Villageois 2: \"O\xF9 est ce que j'ai foutu mes ciseaux, je regrette d'avoir
+    des oreilles\""
+  - "Villageois 3: \"Billy si tu continues j'te cr\xE8ve les roues de ton cheval
+    !\""
+  - 'Villageois 4: "Maman, pourquoi Papi il convulse ?"'
+  - 'Villageois 5: "Ah si seulement le Maire avait pas perdu ses bottes il pourrait
+    sortir de chez lui, et recadrer un peu Billy."'
+  - 'Villageois 6 : "Tema la taille du rat !"'
+  IsDisplayed: 0

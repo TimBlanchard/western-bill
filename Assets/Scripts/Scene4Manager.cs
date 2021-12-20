@@ -80,7 +80,7 @@ public class Scene4Manager : MonoBehaviour
     IEnumerator HorseRunStartDelay()
     {
         yield return new WaitForSeconds(24);
-        animator.SetTrigger("Run");
+        //animator.SetTrigger("Run");
         animator.SetBool("isRunning", true);
     }
 
